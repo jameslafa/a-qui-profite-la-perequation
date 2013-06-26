@@ -1,0 +1,20 @@
+/* TEAM */
+
+Developer: James Lafa
+Site: http://www.angrykatze.com
+Twitter: @angrykatze
+Location: Berlin, Germany
+
+Datajournalist: Marie Coussin
+Twitter: @MarieCoussin
+Location: Paris, France
+
+Designer: Marion Boucharlat
+Site: http://www.marion-boucharlat.com
+Localtion: Paris, France
+
+
+/* SITE */
+Last update: 2013/05/22
+Standards: HTML5, CSS3, Javascript
+Components: Modernizr, jQuery, CoffeeScript, d3.js, Laravel
