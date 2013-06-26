@@ -115,7 +115,7 @@
 					</ul>
 
 					<h3>Open-source</h3>
-					<p>La Gazette des communes et AngryKatze on fait le choix de mettre &#224; disposition le code source de l'application ainsi que les donn&#233;es utilis&#233;es sous licence libre. Tout est disponible sur <a href="https://github.com/AngryKatze/a-qui-profite-la-perequation" target="_blank">Github</a>.</p>
+					<p>La Gazette des communes et AngryKatze ont fait le choix de mettre &#224; disposition le code source de l'application ainsi que les donn&#233;es utilis&#233;es sous licence libre. Tout est disponible sur <a href="https://github.com/AngryKatze/a-qui-profite-la-perequation" target="_blank">Github</a>.</p>
 				</div>
 			</div>
 			<footer class="main container">
