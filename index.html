@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>A qui profite la perequation by AngryKatze</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>A qui profite la perequation</h1>
+        <p>A qui profite la péréquation - Data visualisation built with D3.js</p>
+
+        <p class="view"><a href="https://github.com/AngryKatze/a-qui-profite-la-perequation">View the Project on GitHub <small>AngryKatze/a-qui-profite-la-perequation</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/AngryKatze/a-qui-profite-la-perequation/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/AngryKatze/a-qui-profite-la-perequation/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/AngryKatze/a-qui-profite-la-perequation">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="a-qui-profite-la-prquation" class="anchor" href="#a-qui-profite-la-prquation"><span class="octicon octicon-link"></span></a>A qui profite la péréquation</h1>
+
+<p><strong>A collaborative work from</strong></p>
+
+<ul>
+<li>
+<a href="https://twitter.com/MarieCoussin">Marie Coussin</a> : Data Journalist and Project Manager</li>
+<li>
+<a href="http://www.marion-boucharlat.com/">Marion Boucharlat</a> : Designer</li>
+<li>
+<a href="https://twitter.com/jameslafa">James Lafa</a> [<a href="http://www.angrykatze.com/">AngryKatze</a>] : Web Developer</li>
+</ul><p><strong>For our client</strong> <a href="http://www.lagazettedescommunes.com/">La Gazette Des Communes</a></p>
+
+<p>The application is available <a href="http://app.lagazettedescommunes.com/gazette-perequations/public/">here</a>.</p>
+
+<h3>
+<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements</h3>
+
+<p>The backend API use <a href="http://laravel.com/">Laravel framework</a>. The requirements are:</p>
+
+<ul>
+<li>PHP 5.3.x with library <a href="http://www.php.net/manual/en/mcrypt.installation.php">mcrypt activated</a>
+</li>
+<li>MySQL 5.x (it should work with other databases, but we only tested MySQL)</li>
+</ul><h3>
+<a name="configuration" class="anchor" href="#configuration"><span class="octicon octicon-link"></span></a>Configuration</h3>
+
+<h4>
+<a name="database-configuration" class="anchor" href="#database-configuration"><span class="octicon octicon-link"></span></a>Database configuration</h4>
+
+<ul>
+<li>Update database configuration in <code>application/config/database</code>
+</li>
+<li>Create a new database. Default configuration is <code>perequations</code>
+</li>
+<li>Import into database the last <code>*-perequations.sql</code> file of the directory <code>data/database</code>
+</li>
+</ul><h4>
+<a name="cache-configuration" class="anchor" href="#cache-configuration"><span class="octicon octicon-link"></span></a>Cache configuration</h4>
+
+<p>By default, cache system uses the filesystem. Web server must have write access to the directory <code>storage/cache</code></p>
+
+<p>If you update data into the database, don't forget to update the cache directory.</p>
+
+<h4>
+<a name="optimization" class="anchor" href="#optimization"><span class="octicon octicon-link"></span></a>Optimization</h4>
+
+<p>Don't forget to activate gzip compression on the web server. Api sends lots of data so it will increase app performance.</p>
+
+<h3>
+<a name="licence" class="anchor" href="#licence"><span class="octicon octicon-link"></span></a>Licence</h3>
+
+<p>La Gazette Des Communes and AngryKatze generously share their work to help the community :</p>
+
+<ul>
+<li>The source code is available on this repository under licence <a href="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU GENERAL PUBLIC LICENSE v3</a> (translation available on the website). We share the code of this application to help other media and developers to learn how to do such data visualisation. You can read, modify, distribute our code if you keep your code open-source as well.</li>
+<li>Data computed by Marie Coussin are also available on the repository in 3 different formats sql, csv and ods in <code>data/database</code>
+</li>
+</ul><p>You'll find the data visualisation code in <code>application/assets/coffee/main.coffee</code> and API code in <code>bundles/api</code>.</p>
+
+<p>If you use our code or data, we'll be happy to here about it so please ping us on twitter !</p>
+
+<p>If you have any question, please contact us on twitter <a href="https://twitter.com/AngryKatze">@AngryKatze</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/AngryKatze">AngryKatze</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
