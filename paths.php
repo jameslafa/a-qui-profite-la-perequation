@@ -23,7 +23,7 @@
 
 $environments = array(
 
-	'local' => array('*.dev', 'test.app.lagazettedescommunes.com'),
+	'local' => array('*.dev', '*test.app.lagazettedescommunes.com*'),
 
 );
 
