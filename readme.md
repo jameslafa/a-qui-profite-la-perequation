@@ -41,16 +41,32 @@ Don't forget to activate gzip compression on the web server. Api sends lots of d
 
 ### Licence ###
 
-La Gazette Des Communes, AngryKatze and Marie Coussin generously share their work to help the community :
+La Gazette Des Communes, AngryKatze and Marie Coussin generously share their work to help the community.
 
- - The source code is available on this repository under licence [GNU GENERAL PUBLIC LICENSE v3][12] (translation available on the website). We share the code of this application to help other media and developers to learn how to do such data visualisation. You can read, modify, distribute our code if you keep your code open-source as well.
- - Data computed by Marie Coussin are also available on the repository in 3 different formats sql, csv and ods in `data/database`
+#### Source code ####
+
+The source code is available on this repository under licence [GNU GENERAL PUBLIC LICENSE v3][12] (translation in multiple language is available on the website). We share the code of this application to help other media and developers to learn how to do such data visualisation. You can read, modify, distribute our code if you keep your code open-source as well.
 
 You'll find the data visualisation code in `application/assets/coffee/main.coffee` and API code in `bundles/api`.
 
+#### Data ####
+
+Data computed by Marie Coussin are also available on the repository in 3 different formats in `data/database`.
+
+ - **Publication date** : 27/06/2013
+ - **Source** : Directon générale des collectivités locales
+ - **Temporal coverage** : 2012
+ - **Update frequency** : Annual
+ - **Licence** : [Open Database License (ODbL) v1.0][13] [[summary][14]]
+ - **Language** : French (see `data-description.txt` for translation)
+ - **Geographic coverage** : Metropolitan France
+ - **Files format** : csv, sql, ods
+
+The complete file description is available in `data/database/data-description.txt`.
+
 If you use our code or data, we'll be happy to here about it so please ping us on twitter !
 
-If you have any question, please contact us on twitter [@AngryKatze][13]
+If you have any question, please contact us on twitter [@AngryKatze][15]
 
 
   [1]: https://twitter.com/MarieCoussin
@@ -65,4 +81,6 @@ If you have any question, please contact us on twitter [@AngryKatze][13]
   [10]: http://laravel.com/
   [11]: http://www.php.net/manual/en/mcrypt.installation.php
   [12]: http://www.gnu.org/licenses/gpl-3.0.en.html
-  [13]: https://twitter.com/AngryKatze
+  [13]: http://opendatacommons.org/licenses/odbl/1-0/
+  [14]: http://opendatacommons.org/licenses/odbl/summary/
+  [15]: https://twitter.com/AngryKatze

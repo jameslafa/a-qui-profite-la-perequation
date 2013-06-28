@@ -1,0 +1,37 @@
+############################################################################
+# Description of field names used in data « A qui profite-la-péréquation ? #
+############################################################################
+
+
+field_name                Meaning
+
+id                      : identification number of departement, region, intercommunalité or township
+departement_id          : departement identification number
+region_id               : region identification number
+nom                     : name of the departement, region, intercommunalité or township
+code                    : 3-letters code used to mark regions
+population              : population
+revenu_hab              : region/departement/intercommunalité/township income per inhabitant
+revenu_hab_moyen        : average income per inhabitant
+revenu_hab_rang         : region/departement/intercommunalité/township rank concerning income per inhabitant
+potentiel_fiscal_hab    : departement/intercommunalité/township tax potential per inhabitant
+potentiel_fiscal_moyen  : average tax potential per inhabitant
+potentiel_fiscal_rang   : departement/intercommunalité/township rank concerning tax potential per inhabitant
+coeff_integ_fiscal      : intercommunalité/township tax integration coefficient
+dmto_2012               : DMTO sum for 2012
+dmto_rang_2012          : region/departement rank concerning DMTO
+fpic_2012               : region/departement/intercommunalité/township FPIC sum for 2012
+fpic_rang_2012          : region/departement/intercommunalité/township rank concerning FPIC
+total_2012              : region/departement/intercommunalité/township perequation total
+total_rang_2012         : region/departement/intercommunalité/township rank concerning perequation total
+dmto_hab_2012           : DMTO sum per inhabitant
+dmto_hab_rang_2012      : region/departement rank concerning DMTO per inhabitant
+fpic_hab_2012           : FPIC sum per inhabitant
+fpic_hab_rang_2012      : region/departement/intercommunalité/township rank concerning FPIC
+total_hab_2012          : region/departement/intercommunalité/township perequation total per inhabitant
+total_hab_rang_2012     : departement/intercommunalité/township rank concerning perequation total per inhabitant
+
+
+############################################################################
+
+Note : Fpic data for Île-de-France integrates fsrif perequation.
